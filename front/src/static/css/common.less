@@ -1,0 +1,279 @@
+.padding-lr-10 {
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+}
+
+.padding-lr-20 {
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+
+// margin left right
+.margin-lr-10 {
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+
+.margin-lr-20 {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.margin-lr-30 {
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.margin-top-s {
+  margin-top: @margin-s;
+}
+
+.margin-top-m {
+  margin-top: @margin-m;
+}
+
+.margin-top-l {
+  margin-top: @margin-l;
+}
+
+// 容器
+.container {
+  //.padding-lr-20();
+}
+
+.flex-row(@direction: row) {
+  display: flex;
+  flex-direction: @direction;
+}
+
+// pop
+/deep/ .popupLim {
+  .flex-row(column);
+  .padding-lr-20();
+  background: @bacColor;
+}
+
+.icon {
+  font-size: @font-s;
+  font-weight: bold;
+  background: @themeColor-heightLight;
+  border-radius: @radio-m;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 70rpx;
+  height: 70rpx;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: @margin-m;
+}
+
+.title {
+  font-size: @font-m;
+  font-weight: normal;
+  border-bottom-color: @themeActiveColor 1px solid !important;
+  color: @fontColor;
+  margin-bottom: @margin-m;
+}
+
+.time {
+  font-size: @font-m;
+  color: @fontColor;
+  margin-bottom: @margin-m;
+}
+
+.des {
+  font-size: @font-m;
+  color: @fontColor;
+}
+
+.bigTitle {
+  font-size: @font-l;
+  font-weight: bold;
+}
+
+/deep/ button {
+  border-radius: @radio-l;
+  color: @fontColor;
+  background: @bacColor;
+  border-bottom: 1px dashed @themeColor;
+}
+
+//tag的边框颜色
+/deep/ .uni-tag {
+  border-color: @borderColor;
+}
+
+.red {
+  color: #dd524d !important;
+}
+
+.mainBtn {
+  z-index: 10;
+  color: @fontColor;
+  border: @themeColor 1rpx solid;
+  padding: 10rpx 15rpx;
+  border-radius: @radio-m;
+  font-size: 33rpx;
+  width: fit-content;
+  background: @themeColor;
+  font-weight: 550;
+}
+
+// 语义化按钮
+.danger {
+  color: @dangerColor-bleak !important;
+  border-color: @dangerColor-bleak !important;
+  font-size: @fontSize-s !important;
+  margin-bottom: @margin-s-s;
+}
+
+.markdown {
+  img {
+    max-width: 90vw;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  font-size: @font-m;
+  color: @fontColor;
+  margin-bottom: @margin-s;
+}
+
+view {
+  font-family: 'PingFang', sans-serif;
+}
+
+.manBtn {
+  display: flex;
+  flex-direction: row;
+  white-space: pre-wrap;
+  color: @fontColor;
+  font-size: @fontSize-m;
+  border: @themeActiveColor 1px solid;
+  padding: @padding-n @padding-l;
+  width: fit-content;
+  border-radius: @radio-m;
+  margin: .1rem;
+}
+
+.ice-tag {
+  color: @fontColor;
+  font-size: @font-m;
+  padding: @padding-s-s @padding-s;
+  margin: @margin-s-s;
+  background: @bacColor-bleak-bleak;
+  border-radius: @radio-m;
+  width: fit-content;
+  height: fit-content;
+  white-space: nowrap;
+}
+
+.ice-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.ice-row {
+  display: flex;
+  flex-direction: row;
+  color: @fontColor;
+}
+
+.justCenter {
+  justify-content: center;
+}
+
+.justBetween {
+  justify-content: space-between;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.ice-text {
+  font-size: @font-m;
+  color: @fontColor;
+  margin: @margin-s-s;
+  font-weight: 600;
+  font-family: 'PingFang', sans-serif;
+}
+
+.ice-text-l {
+  font-size: @font-l;
+  color: @fontColor;
+  margin: @margin-s-s;
+}
+
+.fontW-s {
+  font-weight: lighter;
+}
+
+.fontW-n {
+  font-weight: normal;
+}
+
+.fontW-l {
+  font-weight: bolder;
+}
+
+// 横向元素之间的占位空隙元素
+.verticalBlock {
+  display: flex;
+  height: 100%;
+  width: 20rpx;
+}
+
+.transverseBlock {
+  display: flex;
+  height: 20rpx;
+  width: 100%;
+}
+
+.heightFit {
+  height: fit-content;
+}
+
+.widthFit {
+  width: fit-content;
+}
+
+.noMargin {
+  margin: 0 !important;
+}
+
+.lineBottom75 {
+  border-bottom: @borderColor 1px solid;
+  padding-left: 14%;
+  padding-right: 14%;
+}
+
+.white {
+  background: @bacColor-bleak;
+  border-radius: @radio-m;
+  padding: @padding-s;
+  margin-bottom: @margin-s;
+}
+
+.whiteBac {
+  background: @bacColor-bleak;
+}
+
+.ice-header {
+
+}
+.alertMarginTop{
+
+  margin-top: 9vh;
+}
