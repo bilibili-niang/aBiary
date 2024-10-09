@@ -1,0 +1,20 @@
+{
+  "name": "abiary",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  }
+}
